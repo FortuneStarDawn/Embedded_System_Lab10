@@ -91,6 +91,7 @@ void Ambulance( void *pvParameters )
       tone(buzzer, 500, 500);
       delay(1000);
     }
+    vTaskDelay(xDelay*(12-r));
   }
 }
 
